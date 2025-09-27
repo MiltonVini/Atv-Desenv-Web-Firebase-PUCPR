@@ -1,0 +1,39 @@
+.myaccount-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.myaccount-container > div:first-child a {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.myaccount-container > div:first-child a:hover {
+  text-decoration: underline;
+}
+
+.myaccount-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.myaccount-info p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.myaccount-info p:first-child {
+  font-weight: bold;
+  font-size: 18px;
+  color: #222;
+}
